@@ -13,7 +13,7 @@ In this project, we will use the data from the OpenFlights dataset. We will crea
 If an error occurs due to invalid or uninterpretable data, we would treat it as faulty and it would be ignored.
 
 ## Data Storage
-We will download all of our data from OpenFlights (airports.dat and routes.dat). We would store it on our GitHub repository and create a graph to store our data. We will use adjacency list to represent the graph. The big O is O(n + m).
+We will download all of our data from OpenFlights (airports.dat and routes.dat). We would store it on our GitHub repository and create a graph to store our data. We will use adjacency list to storage the graph. The big O of adjacency list is O(n + m). n is represent nodes and m is edges.
 
 ## Algorithm 
 
