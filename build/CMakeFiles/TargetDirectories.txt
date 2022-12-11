@@ -1,0 +1,11 @@
+/workspaces/finalproject/team1-FInal-Project/build/CMakeFiles/test.dir
+/workspaces/finalproject/team1-FInal-Project/build/CMakeFiles/main.dir
+/workspaces/finalproject/team1-FInal-Project/build/CMakeFiles/edit_cache.dir
+/workspaces/finalproject/team1-FInal-Project/build/CMakeFiles/rebuild_cache.dir
+/workspaces/finalproject/team1-FInal-Project/build/lib/CMakeFiles/lodepng.dir
+/workspaces/finalproject/team1-FInal-Project/build/lib/CMakeFiles/cs225.dir
+/workspaces/finalproject/team1-FInal-Project/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/finalproject/team1-FInal-Project/build/lib/CMakeFiles/rebuild_cache.dir
+/workspaces/finalproject/team1-FInal-Project/build/src/CMakeFiles/src.dir
+/workspaces/finalproject/team1-FInal-Project/build/src/CMakeFiles/edit_cache.dir
+/workspaces/finalproject/team1-FInal-Project/build/src/CMakeFiles/rebuild_cache.dir
