@@ -8,6 +8,14 @@ Final Presentation Video:
 Final Presentation Powerpoint:
 Final Report:
 
+## File Descriptions
+* main.cpp: Contains the user interface.
+* graph.cpp: Contains the constructors and algorithms needed to compute the shortest route and the fewest stopover.
+* graph.h: The header file for graph.cpp.
+* airports.dat: Contains information about each airport.
+* route.dat: Contains information about all the routes between different airports.
+* test.cpp: Contains all the test cases for this project.
+
 ## Instructions on Running the Program
 
 To clone this repository to your local device, run the following command in your terminal.
