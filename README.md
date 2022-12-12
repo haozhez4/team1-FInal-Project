@@ -3,6 +3,11 @@ This project explores the most efficient (shortest) path through the utilization
 
 ## Team Members: Harry Xu && Dylan Zhuang && Logan Cheng && Andy Xu
 
+## Links
+Final Presentation Video: 
+Final Presentation Powerpoint:
+Final Report:
+
 ## Instructions on Running the Program
 
 To clone this repository to your local device, run the following command in your terminal.
