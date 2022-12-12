@@ -60,7 +60,13 @@ And enter the ID of the destination airport after the prompt:
 Enter destination airport
 ```
 
+The result of either the fewest stopovers or the shortest route will show up in the terminal, depending on your choice. The following prompts will show up:
+```
+If you want to check the popularity of the airports, please enter the ID of the airport
+If you want to exit the program, please enter 0
+```
 
+Enter the ID of the airport to see it's popularity amongst all the airports, or enter ``` 0 ``` to exit the program.
 
 ## Description of Test Cases
 
