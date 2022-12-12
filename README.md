@@ -40,3 +40,11 @@ To run the test cases, enter the following commands:
 make test
 ./test
 ```
+The test cases we provided cover the following:
+* Constructing a Graph
+* Constructing an Airport
+* Find Distance Algorithm
+* BFS Traversal
+* Djikstra's Algorithm
+* Pagerank Algorithm
+* Airport Rank Algorithm
