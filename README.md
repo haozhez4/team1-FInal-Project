@@ -40,7 +40,8 @@ cmake ..
 
 To execute the program, run the command:
 ```
-make???
+make main
+./main
 ```
 
 The following prompt will show up:
@@ -48,6 +49,18 @@ The following prompt will show up:
 Choose an option, 1: Find the flight path with the fewest stopovers, 2: Find the flight path with the shortest distance between the airports
 ```
 Run the command ``` 1 ``` or ``` 2 ``` depending on the result you seek.
+
+Enter the ID of the starting airport after the prompt:
+```
+Enter starting airport
+```
+
+And enter the ID of the destination airport after the prompt:
+```
+Enter destination airport
+```
+
+
 
 ## Description of Test Cases
 
