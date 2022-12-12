@@ -10,3 +10,14 @@ To clone this repository to your local device, run the following command in your
 git clone https://github.com/haozhez4/team1-FInal-Project.git
 ```
 
+Run the following command to make the build directory
+
+```
+mkdir build
+cd build
+```
+
+Then to initiate it run
+```
+cmake ..
+```
