@@ -11,7 +11,6 @@ git clone https://github.com/haozhez4/team1-FInal-Project.git
 ```
 
 Run the following command to make the build directory.
-
 ```
 mkdir build
 cd build
@@ -21,3 +20,17 @@ Then to initiate it run:
 ```
 cmake ..
 ```
+## Execution of the Program
+
+To execute the program, run the command:
+```
+make???
+```
+
+The following prompt will show up:
+```
+Choose an option, 1: Find the flight path with the fewest stopovers, 2: Find the flight path with the shortest distance between the airports
+```
+Type ``` 1 ``` or ``` 2 ``` depending on the result you seek.
+
+
