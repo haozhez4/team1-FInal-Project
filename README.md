@@ -4,13 +4,16 @@ This project explores the most efficient (shortest) path through the utilization
 ## Team Members: Harry Xu && Dylan Zhuang && Logan Cheng && Andy Xu
 
 ## Links
-* Final Presentation Video: 
-* Final Presentation Powerpoint:
-* Final Report:
+Final Presentation Video: 
+Final Presentation Powerpoint:
+Final Report:
 
 ## File Descriptions
 * main.cpp: Contains the user interface.
-* graph.cpp: Contains the constructors and algorithms needed to compute the shortest route and the fewest stopover. 
+* graph.cpp: Contains the constructors and algorithms needed to compute
+*             1.the shortest route from a chosen airport to a chosen destination;
+*             2.the route with the fewest stopovers from a chosen airport to a chosen destination;
+*             3.the popularity of a chosen airport.
 * graph.h: The header file for graph.cpp.
 * airports.dat: Contains information about each airport.
 * route.dat: Contains information about all the routes between different airports.
