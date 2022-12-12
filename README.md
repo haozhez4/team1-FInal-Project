@@ -10,7 +10,7 @@ Final Report:
 
 ## File Descriptions
 * main.cpp: Contains the user interface.
-* graph.cpp: Contains the constructors and algorithms needed to compute
+* graph.cpp: Implementations of the constructors and algorithms needed to compute
 *             1.the shortest route from a chosen airport to a chosen destination;
 *             2.the route with the fewest stopovers from a chosen airport to a chosen destination;
 *             3.the popularity of a chosen airport.
