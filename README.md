@@ -31,6 +31,12 @@ The following prompt will show up:
 ```
 Choose an option, 1: Find the flight path with the fewest stopovers, 2: Find the flight path with the shortest distance between the airports
 ```
-Type ``` 1 ``` or ``` 2 ``` depending on the result you seek.
+Run the command ``` 1 ``` or ``` 2 ``` depending on the result you seek.
 
+## Description of Test Cases
 
+To run the test cases, enter the following commands:
+```
+make test
+./test
+```
