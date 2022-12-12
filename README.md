@@ -5,4 +5,8 @@ This project explores the most efficient (shortest) path through the utilization
 
 ## Instructions on Running the Program
 
-https://github.com/haozhez4/team1-FInal-Project.git
+To clone this repository to your local device, run the following command in your terminal.
+```
+git clone https://github.com/haozhez4/team1-FInal-Project.git
+```
+
