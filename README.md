@@ -69,6 +69,10 @@ If you want to exit the program, please enter 0
 
 Enter the ID of the airport to see it's popularity amongst all the airports, or enter ``` 0 ``` to exit the program.
 
+Demo of the program
+<img width="1010" alt="截屏2022-12-12 下午10 28 39" src="https://user-images.githubusercontent.com/92755119/207226897-8051632a-264c-4358-8310-17ea662c8f5a.png">
+
+
 ## Description of Test Cases
 
 To run the test cases, enter the following commands:
@@ -84,3 +88,5 @@ The test cases we provided cover the following:
 * Djikstra's Algorithm
 * Pagerank Algorithm
 * Airport Rank Algorithm
+
+
