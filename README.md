@@ -69,9 +69,11 @@ If you want to exit the program, please enter 0
 
 Enter the ID of the airport to see it's popularity amongst all the airports, or enter ``` 0 ``` to exit the program.
 
-Demo of the program
+Demo of the program for BFS
 <img width="1010" alt="截屏2022-12-12 下午10 28 39" src="https://user-images.githubusercontent.com/92755119/207226897-8051632a-264c-4358-8310-17ea662c8f5a.png">
 
+Demo of the program for Dijkstra's Algorithm
+<img width="1013" alt="截屏2022-12-12 下午10 33 00" src="https://user-images.githubusercontent.com/92755119/207227313-5a31028c-b73b-4f97-80b3-cb4fbce99149.png">
 
 ## Description of Test Cases
 
