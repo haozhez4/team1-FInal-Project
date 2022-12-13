@@ -28,6 +28,7 @@ git clone https://github.com/haozhez4/team1-FInal-Project.git
 
 Run the following command to make the build directory.
 ```
+cd team1-FInal-Project
 mkdir build
 cd build
 ```
