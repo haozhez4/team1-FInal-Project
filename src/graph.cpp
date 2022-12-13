@@ -139,7 +139,7 @@ vector<int> Graph::BFS(int start, int destination) {
     }
     pathId.push(start);
 
-    //  convert airport IDs to Airport Code
+    //  pushback ids into the vector
     vector<int> path;
     while (!pathId.empty()) {
         int ap = pathId.top();
@@ -169,16 +169,10 @@ pair<vector<int>,double> Graph::dijkstra(int start, int destination) {
 
     vector<int> distanceFromStart(14110,INT_MAX);   //  total distance from start to current airport
     vector<int> previous(14110,-1); //  maintains previous airport visited (with shortest distance to start)
-    // vector<int> unvisited;   //  all unvisited airports
 
-    // unordered_set<int> visited;
-    
     std::priority_queue<pair<int,double>, vector<pair<int,double>>,comp> pq;
     pq.push(make_pair(start,0.0));
-    // for (auto it= graph[start].begin(); it!= graph[start].end(); it++) {
-    //     distanceFromStart[it->first] = INT_MAX; //  set all distances to infinity
-    //     unvisited.push_back(it->first);
-    // }
+  
     distanceFromStart[start] = 0;   //  distance from start to start
     previous[start] = start;    //  initialize starting airport to start
 
@@ -186,14 +180,7 @@ pair<vector<int>,double> Graph::dijkstra(int start, int destination) {
     while (!pq.empty()) {
         std::pair<int,double> minPair = pq.top();
         pq.pop();
-        // double minDistance = INT_MAX;   //  minimum distance from start
-        // int minIndex;   //  index into unvisited of node with shortest distance from start
-        // for (size_t i=0; i<unvisited.size(); i++) { // find node in unvisited with min distanceFromStart
-        //     if (distanceFromStart[unvisited[i]] < minDistance) {
-        //         minDistance = distanceFromStart[unvisited[i]];
-        //         minIndex = i;
-        //     }
-        // }
+    
         for (list<pair<int, double>>::iterator iter = graph[minPair.first].begin(); iter != graph[minPair.first].end(); iter++){
             int neighbor = iter->first;
             double currentdisttoneighbor = iter->second;
@@ -203,17 +190,7 @@ pair<vector<int>,double> Graph::dijkstra(int start, int destination) {
                 previous[neighbor]=minPair.first;
             }
         }
-        // current = unvisited[minIndex];  //  update current
-        // unvisited.erase(unvisited.begin()+minIndex);    //  remove current from unvisited
-        // if (current == destination) //  end search if destination has minimum distance
-        //     break;
-        // for (auto it=graph[current].begin(); it!= graph[current].end(); it++) {    //  search all departures from current airport
-        //     double newDistance = distanceFromStart[current] + (it->second); //  distanceFromStart through current to departure airport
-        //     if (newDistance < distanceFromStart[it->first]) {   //  update distance if shorter flight
-        //         distanceFromStart[it->first] = newDistance;
-        //         previous[it->first] = current;  //  update previous airport visited
-        //     }
-        // }
+        
     }
 
     if (previous[destination]==-1) { //  no path could be found between start and destination
@@ -230,14 +207,14 @@ pair<vector<int>,double> Graph::dijkstra(int start, int destination) {
     }
     pathId.push(start);
 
-    //  convert airport IDs to Airport Code
+    //  convert airport IDs
     vector<int> path;
     while (!pathId.empty()) {
         int ap = pathId.top();
         path.push_back(ap);
         pathId.pop();
     }
-    pair<vector<int>,double> shortestPath(path, distanceFromStart[destination]);    //  create tuple of path and total distance
+    pair<vector<int>,double> shortestPath(path, distanceFromStart[destination]);    //  create pair of path and total distance
     return shortestPath;
 }
 
